@@ -4,28 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/0e563e8096.js"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="main.css" />
-    <title>Weather</title>
+    <title>Document</title>
   </head>
   <body>
-    <form>
-      <input type="text" placeholder="Weather in..." autofocus />
-      <button type="submit">SUBMIT</button>
-      <span class="msg"></span>
-    </form>
+    <section class="top-banner">
+      <div class="container">
+        <h1 class="heading">Weather</h1>
+        <form>
+          <input type="text" placeholder="Weather in..." autofocus />
+          <button type="submit">SUBMIT</button>
+          <span class="msg"></span>
+        </form>
+      </div>
+    </section>
+    <section class="ajax-section">
+      <div class="container">
+        <ul class="cities"></ul>
+      </div>
+    </section>
 
-    <div id="container">
-      <h2 id="title">weather</h2>
-      <i class="fa-solid fa-sun"></i>
-      <img class="weather-image" src="" alt="" />
-      <p class="temperature">Temperature</p>
-      <p class="message-temperature">Message Temperature</p>
-      <p class="city-temperature">City</p>
-    </div>
     <script src="main.js"></script>
   </body>
 </html>
